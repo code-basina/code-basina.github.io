@@ -1,0 +1,20 @@
+{
+  "name": "ba-sina",
+  "version": "1.0.0",
+  "description": "کد با سینا - وب سایت آموزش برنامه نویسی",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["programming", "education", "courses", "persian"],
+  "author": "Sina",
+  "license": "MIT",
+  "homepage": "https://code-basina.github.io",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
