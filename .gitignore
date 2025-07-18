@@ -7,6 +7,15 @@ yarn-error.log*
 # Production builds
 /build
 /dist
+client/build/
+
+# Build files in root (handled by gh-pages)
+index.html
+404.html
+asset-manifest.json
+manifest.json
+profile.jpg
+static/
 
 # Environment variables
 .env
